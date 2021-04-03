@@ -1,0 +1,21 @@
+body {
+    background-color: #fff;
+}
+#one {
+    font-family: Georgia;
+    font-size: 10000%;
+    color: black;
+    text-decoration: underline;
+    vertical-align: text-top;
+}
+#inicio {
+    font-family: Georgia;
+    font-size: 12px;
+    color: rgb(2, 2, 2);
+    
+}
+#i {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
