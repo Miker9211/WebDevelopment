@@ -1,12 +1,11 @@
 body {
     background-color: #fff;
 }
-#one {
-    font-family: Georgia;
-    font-size: 10000%;
+#One {
+    font-family: 'Times New Roman', Times, serifss;
+    font-size: 50px;
     color: black;
-    text-decoration: underline;
-    vertical-align: text-top;
+    vertical-align: middle;
 }
 #inicio {
     font-family: Georgia;
