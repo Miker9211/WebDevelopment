@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+/* Fondo */
+html,body {
+    background: url('../images/background-star-wars.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Numans', sans-serif;
+    height: 100%;
+    margin: 0px;
+}
+
+/* Cabecera */
+.header__img {
+    width: 260px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312 !important;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+/* Codigo para mostrar las imagenes Michael */
+.carousel {
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+ }
+ .carousel__container {
+     white-space: nowrap;
+     margin: 70px 0px;
+     padding-bottom: 10px;
+ }
+ .carousel__item {
+     background-color: black;
+     width: 200px;
+     height: 250px;
+     border-radius: 20px;
+     overflow: hidden;
+     margin-right: 10px;
+     display: inline-block;
+     transition: 450ms all;
+     transform-origin: center left;
+     position: relative;
+ }
+ .carousel__item:hover ~ .carousel__item {
+     transform: translate3d(100px, 0, 0);
+ }
+ .carousel__container:hover .carousel__item {
+     opacity: 0.3;
+ }
+ .carousel__container:hover .carousel__item:hover {
+    transform: scale(1.5);
+    opacity: 1;
+ }
+ .carousel__item-img {
+     width: 200px;
+     height: 250px;
+     object-fit: cover;
+ }
+ .carousel__item-details {
+     background: linear-gradient(to top, rgba(0, 0, 0, 0) 100%);
+     font-size: 10px;
+     opacity: 1;
+     transition: 450ms opacity;
+     padding: 10px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;   
+ }
+ .carousel__item-details--img {
+     width: 30px;
+     height: 30px;
+     cursor: pointer;
+ }
