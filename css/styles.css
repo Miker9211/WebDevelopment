@@ -6,6 +6,7 @@ html, body {
   font-family: "Numans", sans-serif;
   height: 100%;
   margin: 0px;
+  color: black;
 }
 
 /* Cabecera */
@@ -91,18 +92,59 @@ input:focus {
   margin-left: 4px;
 }
 
+.father{
+  display: flex;
+  flex-flow: nowrap;
+} 
+.margen-interno{
+  margin: 40px 50px;
+}
+    .section{
+  display: flex;
+}
+    .articulos{
+        flex:2 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+    } 
+       .article{
+         flex:1 1 40%;
+         font-size: 13px;
+         letter-spacing: 1px;
+         margin: 10px;
+         flex:1 1 45%;
+         background: #ececec;
+       }
+       .article img{
+         width: 100%;
+       }
+       h3{
+         color:rgb(0, 0, 0);
+         font-size: 13px;
+         padding: 10px 0px;
+         margin-top: -80px;
+       }
+    .aside{
+      flex:1 1 auto;
+    }   
+        .informacion{
+          flex:1 1 auto;
+        }
+
 /* Codigo para mostrar las imagenes Michael */
 .carousel {
   width: 100%;
   overflow: scroll;
   padding: 30px;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .carousel__container {
   white-space: nowrap;
   margin: 70px 0px;
   padding-bottom: 10px;
+  
 }
 
 .carousel__item {
