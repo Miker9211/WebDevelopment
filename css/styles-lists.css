@@ -1,0 +1,33 @@
+/* Fondo */
+html, body {
+  background: url("../images/background-star-wars.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Numans", sans-serif;
+  height: 100%;
+  margin: 0px;
+}
+
+/* Cabecera */
+.header__img {
+  width: 260px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.img-fluid {
+  height: 300px !important;
+}
+
+h3 {
+  font-family: 'Days One';
+  color: #007bff;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500 !important;
+  line-height: 46.4px !important;
+  font-size: 30px !important;
+}
+.card-body {
+  background-color: #343a40;
+  color: #fff;
+}
